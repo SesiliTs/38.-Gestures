@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B4868542B3620F500D2092C /* _8__GesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4868532B3620F500D2092C /* _8__GesturesApp.swift */; };
-		0B4868562B3620F500D2092C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4868552B3620F500D2092C /* ContentView.swift */; };
+		0B4868542B3620F500D2092C /* _8_GesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4868532B3620F500D2092C /* _8_GesturesApp.swift */; };
+		0B4868562B3620F500D2092C /* ArtGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4868552B3620F500D2092C /* ArtGallery.swift */; };
 		0B4868582B3620F900D2092C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B4868572B3620F900D2092C /* Assets.xcassets */; };
 		0B48685B2B3620F900D2092C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B48685A2B3620F900D2092C /* Preview Assets.xcassets */; };
+		0B4868622B36214C00D2092C /* ArtworkComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4868612B36214C00D2092C /* ArtworkComponentView.swift */; };
+		0B4868642B3621D700D2092C /* ImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4868632B3621D700D2092C /* ImageFromURL.swift */; };
+		0B4868672B36270A00D2092C /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4868662B36270A00D2092C /* DragGestureView.swift */; };
+		0B4868692B36282B00D2092C /* RotationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4868682B36282B00D2092C /* RotationGestureView.swift */; };
+		0B48686B2B36298900D2092C /* MagnificationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B48686A2B36298900D2092C /* MagnificationGestureView.swift */; };
+		0B48686D2B362C9800D2092C /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B48686C2B362C9800D2092C /* LongPressGestureView.swift */; };
+		0B48686F2B362E2D00D2092C /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B48686E2B362E2D00D2092C /* TapGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B4868502B3620F500D2092C /* 38. Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "38. Gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B4868532B3620F500D2092C /* _8__GesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _8__GesturesApp.swift; sourceTree = "<group>"; };
-		0B4868552B3620F500D2092C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B4868532B3620F500D2092C /* _8_GesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _8_GesturesApp.swift; sourceTree = "<group>"; };
+		0B4868552B3620F500D2092C /* ArtGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtGallery.swift; sourceTree = "<group>"; };
 		0B4868572B3620F900D2092C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B48685A2B3620F900D2092C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B4868612B36214C00D2092C /* ArtworkComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkComponentView.swift; sourceTree = "<group>"; };
+		0B4868632B3621D700D2092C /* ImageFromURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromURL.swift; sourceTree = "<group>"; };
+		0B4868662B36270A00D2092C /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		0B4868682B36282B00D2092C /* RotationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureView.swift; sourceTree = "<group>"; };
+		0B48686A2B36298900D2092C /* MagnificationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureView.swift; sourceTree = "<group>"; };
+		0B48686C2B362C9800D2092C /* LongPressGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureView.swift; sourceTree = "<group>"; };
+		0B48686E2B362E2D00D2092C /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,11 @@
 		0B4868522B3620F500D2092C /* 38. Gestures */ = {
 			isa = PBXGroup;
 			children = (
-				0B4868532B3620F500D2092C /* _8__GesturesApp.swift */,
-				0B4868552B3620F500D2092C /* ContentView.swift */,
+				0B4868532B3620F500D2092C /* _8_GesturesApp.swift */,
+				0B4868552B3620F500D2092C /* ArtGallery.swift */,
+				0B4868612B36214C00D2092C /* ArtworkComponentView.swift */,
+				0B4868632B3621D700D2092C /* ImageFromURL.swift */,
+				0B4868652B3626F300D2092C /* Gestures */,
 				0B4868572B3620F900D2092C /* Assets.xcassets */,
 				0B4868592B3620F900D2092C /* Preview Content */,
 			);
@@ -65,6 +82,18 @@
 				0B48685A2B3620F900D2092C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B4868652B3626F300D2092C /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				0B4868662B36270A00D2092C /* DragGestureView.swift */,
+				0B4868682B36282B00D2092C /* RotationGestureView.swift */,
+				0B48686A2B36298900D2092C /* MagnificationGestureView.swift */,
+				0B48686C2B362C9800D2092C /* LongPressGestureView.swift */,
+				0B48686E2B362E2D00D2092C /* TapGestureView.swift */,
+			);
+			path = Gestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4868562B3620F500D2092C /* ContentView.swift in Sources */,
-				0B4868542B3620F500D2092C /* _8__GesturesApp.swift in Sources */,
+				0B4868562B3620F500D2092C /* ArtGallery.swift in Sources */,
+				0B4868622B36214C00D2092C /* ArtworkComponentView.swift in Sources */,
+				0B4868542B3620F500D2092C /* _8_GesturesApp.swift in Sources */,
+				0B4868672B36270A00D2092C /* DragGestureView.swift in Sources */,
+				0B4868692B36282B00D2092C /* RotationGestureView.swift in Sources */,
+				0B48686D2B362C9800D2092C /* LongPressGestureView.swift in Sources */,
+				0B4868642B3621D700D2092C /* ImageFromURL.swift in Sources */,
+				0B48686F2B362E2D00D2092C /* TapGestureView.swift in Sources */,
+				0B48686B2B36298900D2092C /* MagnificationGestureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

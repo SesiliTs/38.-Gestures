@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct _8__GesturesApp: App {
+struct _8_GesturesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ArtGallery()
         }
     }
 }
